@@ -18,7 +18,7 @@ softwareversion = "1.2.1"
 
 
 pid = str(os.getpid())
-pidfile = "ac_to_mqtt.pid"
+pidfile = "/home/ubuntu/ac_to_mqtt.pid"
 pid_stale_time = 5
 pid_last_update = 0
 
